@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.1
 
 dev_dependencies:
   flutter_test:
@@ -35,5 +36,12 @@ flutter_launcher_icons:
     generate: true
     image_path: "assets/icons/djayz.png"
 
+flutter_native_splash:
+  color: "#8800ff"
+  image: assets/icons/djayz.png
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/
