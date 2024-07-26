@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
-void main() {
+void main() async {
+  await Future.delayed(Duration(seconds: 3));
+  FlutterNativeSplash.remove();
+
   runApp(const MainApp());
 }
 
