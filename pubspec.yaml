@@ -21,7 +21,7 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icons/djayz.png"
+  image_path: "assets/logo.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
@@ -38,10 +38,10 @@ flutter_launcher_icons:
 
 flutter_native_splash:
   color: "#8800ff"
-  image: assets/icons/djayz.png
+  image: assets/logo.png
 
 flutter:
   uses-material-design: true
   assets:
     - assets/icons/
-    - assets/
+    - assets/logo.png
