@@ -25,16 +25,16 @@ flutter_launcher_icons:
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/icons/djayz.png"
+    image_path: "assets/icons/logo.png"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "assets/icons/djayz.png"
+    image_path: "assets/icons/logo.png"
     icon_size: 48 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path: "assets/icons/djayz.png"
+    image_path: "assets/icons/logo.png"
 
 flutter_native_splash:
   color: "#8800ff"

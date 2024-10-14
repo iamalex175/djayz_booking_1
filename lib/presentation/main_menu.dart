@@ -12,7 +12,6 @@ class MainMenuScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.black,
         body: SingleChildScrollView(
-          // Hinzugefügt, um das Scrollen zu ermöglichen
           child: Container(
             width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 14.0, vertical: 26.0),
@@ -45,7 +44,7 @@ class MainMenuScreen extends StatelessWidget {
                       Container(
                         height: 474.0,
                         width: double.maxFinite,
-                        color: Colors.black, // Hintergrundfarbe anpassen
+                        color: Colors.black,
                       ),
                       Align(
                         alignment: Alignment.topCenter,
@@ -123,7 +122,7 @@ class MainMenuScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 20.0), // Geändert, um den Abstand zu erhöhen
+                SizedBox(height: 20.0),
                 Text(
                   "Clear all",
                   style: theme.textTheme.headlineMedium!
